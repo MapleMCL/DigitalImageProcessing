@@ -1,0 +1,48 @@
+# ---------------------------------------------------
+# MATLAB 专用的 .gitignore 模板
+# ---------------------------------------------------
+
+# MATLAB 自动保存文件和历史文件
+*.asv
+*.m~
+*.history
+
+# 编译出的 MEX 二进制文件 (跨平台)
+*.mex
+*.mexa64
+*.mexmaci64
+*.mexmaca64
+*.mexw32
+*.mexw64
+
+# Simulink 自动生成的缓存和代码文件夹
+slprj/
+sfprj/
+*.slxc
+
+# MATLAB 代码生成工具(Coder)的输出
+codegen/
+
+# 数据文件 (视情况而定)
+# 如果你的 .mat 文件是代码运行必须的基础小体积配置，可以注释掉这行
+# 如果主要是运行结果、大体积数据集，请务必忽略
+*.mat
+*.dat
+
+# 导出的独立应用、工具箱打包文件
+*.mlappinstall
+*.mlpkginstall
+*.exe
+*.app
+
+# 运行 Publish 功能自动生成的 html 文件夹
+html/
+*.pdf
+*.eps
+*.png
+*.jpg
+# (如果你希望保存图表到版本库中，可以不要忽略图片格式)
+
+# 操作系统常见的系统文件 (Mac/Windows)
+.DS_Store
+Thumbs.db

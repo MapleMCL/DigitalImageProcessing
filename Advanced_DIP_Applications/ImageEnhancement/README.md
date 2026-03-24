@@ -33,6 +33,10 @@ A Retinex-based method that estimates illumination and enhances visibility.
 - Lightness Order Error (LOE)
 Measures the preservation of relative lightness ordering in the enhanced image.
 
+## 
+将 ImageEnhancement 文件夹作为 directory 进行运行
+结构
+
 ## Results
 
 ## References
